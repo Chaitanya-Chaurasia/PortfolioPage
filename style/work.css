@@ -1,0 +1,92 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.378);
+  overflow: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#skills {
+  height: 440px;
+  width: 600px;
+  top: 40px;
+  left: 5%;
+  position: absolute;
+  border-radius: 50px;
+  background-color: rgba(0, 255, 255, 0.078);
+}
+
+#bucketList {
+  height: 170px;
+  width: 600px;
+  top: 520px;
+  left: 5%;
+  position: absolute;
+  border-radius: 50px;
+  background-color: rgba(30, 128, 128, 0.51);
+}
+
+#title1 {
+  height: 50px;
+  width: 440px;
+  border-radius: 50px;
+  right: 10%;
+  top: -20px;
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 40px;
+  background: -webkit-linear-gradient(
+    rgba(0, 0, 0, 0.522) 10%,
+    rgba(160, 185, 147, 0.466)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  padding-top: 10%;
+}
+
+#title2 {
+  height: 100px;
+  width: 500px;
+  background-color: rgba(255, 0, 0, 0.185);
+  border-radius: 50px;
+  right: 10%;
+  top: 40px;
+  position: absolute;
+}
+
+#project1 {
+  height: 100px;
+  width: 500px;
+  background-color: rgba(240, 255, 255, 0.256);
+  border-radius: 50px;
+  right: 10%;
+  top: 180px;
+  position: absolute;
+}
+
+#project2 {
+  height: 100px;
+  width: 500px;
+  background-color: rgba(240, 255, 255, 0.256);
+  border-radius: 50px;
+  right: 10%;
+  top: 300px;
+  position: absolute;
+}
